@@ -27,20 +27,32 @@ export default function Home() {
       </section>
 
       <section className="home-stats-section">
-        <div className="home-stat-item">
-          <Scale className="home-stat-icon" size={48} />
-          <span className="home-stat-value">48</span>
-          <span className="home-stat-label">Compliance Flags</span>
+        <div className="home-stat-card">
+          <div className="home-stat-icon-wrapper">
+            <Scale size={28} />
+          </div>
+          <div className="home-stat-content">
+            <span className="home-stat-value">48</span>
+            <span className="home-stat-label">Compliance Flags</span>
+          </div>
         </div>
-        <div className="home-stat-item">
-          <FileText className="home-stat-icon" size={48} />
-          <span className="home-stat-value">200K+</span>
-          <span className="home-stat-label">Invoice Lines</span>
+        <div className="home-stat-card">
+          <div className="home-stat-icon-wrapper">
+            <FileText size={28} />
+          </div>
+          <div className="home-stat-content">
+            <span className="home-stat-value">200K+</span>
+            <span className="home-stat-label">Invoice Lines Analyzed</span>
+          </div>
         </div>
-        <div className="home-stat-item">
-          <ShieldCheck className="home-stat-icon" size={48} />
-          <span className="home-stat-value">3</span>
-          <span className="home-stat-label">Flag Categories</span>
+        <div className="home-stat-card">
+          <div className="home-stat-icon-wrapper">
+            <ShieldCheck size={28} />
+          </div>
+          <div className="home-stat-content">
+            <span className="home-stat-value">3</span>
+            <span className="home-stat-label">Flag Categories</span>
+          </div>
         </div>
       </section>
 
